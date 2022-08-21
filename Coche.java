@@ -5,11 +5,8 @@ public class Coche {
         this.puertas++;
         return 0;
     }
-
-    public int masPuertas(){
-        return agregarPuertas();
-    }
-
     Coche miCoche = new Coche() {
-    };
+        miCoche.agregarPuertas();
+        System.out.println(miCoche.puertas)
+    }
 }
